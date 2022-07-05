@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(29, 22, 73);
+}
+.container{
+    width: 1400px;
+    height: 730px;
+    margin: 80px auto;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    overflow: hidden;
+}
+.info-container{
+    width: 100%;
+    height: 100%;
+}
+
+.info-container h1{
+    font-size: 3em;
+    margin: 80px auto 40px;
+    text-align: center;
+}
+.info-container p{
+    font-size: 1em;
+    text-align: center;
+    color: grey;
+    margin-bottom: 40px;
+}
+.info-container .formulario{
+    width: 400px;
+    margin: 20px auto;
+}
+.info-container .formulario label{
+    font-weight: bold;
+}
+.info-container .formulario input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.info-container .contenedor-margen{
+    width: 400px;
+    margin: 0 auto;
+}
+.choose{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.choose a{
+    text-decoration: none;
+    color: rgb(3, 126, 126);
+}
+.choose a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 15px auto;
+}
+button:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.choose-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.choose-social form{
+    width: 100%;
+}
+.choose-social input{
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.choose-social #google{
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+}
+.choose-social #google:hover{
+    background-color: aliceblue;
+}
+
+
+.choose-social #facebook{
+    background-color: rgb(57, 121, 238);
+    color: white;
+}
+.choose-social #facebook:hover{
+    background-color: rgb(36, 106, 238);
+}
+.choose-social #twitter{
+    background-color: deepskyblue;
+    color: white;
+}
+.choose-social #twitter:hover{
+    background-color: rgb(5, 179, 236);
+}
+.screen{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.screen img{
+    width: 100%;
+}
